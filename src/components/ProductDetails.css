@@ -1,0 +1,175 @@
+.product-details-top-side {
+  display: flex;
+  flex-direction: row;
+  color: rgb(107, 37, 4);
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.product-details-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.product-details-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  row-gap: 30px;
+  min-height: 100vh;
+  padding: 0 40px;
+}
+
+.product-details-top-side-button {
+  cursor: pointer;
+}
+
+.product-details-top-side-button:hover {
+  opacity: 0.8;
+}
+
+
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.product-details-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-details-name {
+  font-family: Handlee;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(78, 26, 2);
+}
+
+.product-details-price {
+  font-family: Handlee;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(124, 43, 5);
+}
+
+.product-profile {
+  font-size: 30px;
+  color: rgb(78, 26, 2);
+  font-family: Handlee;
+  font-weight: bold;
+}
+
+.product-details-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details-description {
+  max-width: 500px;
+  font-family: Handlee;
+  font-weight: bold;
+  color: rgb(124, 43, 5);
+  font-size: 20px;
+}
+
+
+.product-details-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 30px;
+}
+
+.product-details-add-to-cart-button {
+  padding: 10px 20px;
+  background-color: #ee7d32;
+  color: rgb(252, 238, 215);
+  border: none;
+  border-radius: 6px;
+  font-family: Handlee;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  display: flex;
+}
+
+.product-details-add-to-cart-button:hover {
+  background-color: #d96b2a;
+}
+
+.product-details-sold-out-button {
+  padding: 10px 20px;
+  background-color: #dd675f;
+  color: rgb(252, 238, 215);
+  border: none;
+  border-radius: 6px;
+  font-family: Handlee;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  display: flex;
+}
+
+
+.product-details-bottom-side-reviews-header {
+  font-size: 30px;
+  color: rgb(78, 26, 2);
+  font-family: Handlee;
+  font-weight: bold;
+}
+
+
+.product-details-bottom-side-reviews-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.product-details-bottom-side-points {
+  font-size: 120px;
+  font-weight: bold;
+  color: rgb(78, 26, 2);
+  display: flex;
+  align-items: center;
+}
+
+.product-details-bottom-side-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+.product-details-bottom-side-stars-img {
+  width: 200px;
+}
+
+.product-details-bottom-side-based-on {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Handlee;
+  color: rgb(78, 26, 2);
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .product-details-container {
+    flex-direction: column;
+  }
+
+  .product-details-page-wrapper {
+    align-items: center;
+  }
+}

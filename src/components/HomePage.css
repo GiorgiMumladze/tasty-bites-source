@@ -1,0 +1,347 @@
+.welcome-text {
+  font-size: clamp(28px, 6vw, 70px);
+  font-weight: bold;
+  font-family: Handlee;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.under-welcome-text {
+  font-size: clamp(16px, 3vw, 30px);
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  margin-top: 10px;
+}
+
+.welcome-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 300px;
+  height: 40vh;
+
+  padding: 20px;
+  text-align: center;
+
+  background-image: url('/images/background-photo.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.shop-now-button {
+  background-color: #ee7d32;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.shop-now-button:hover {
+  background-color: #ee7d32ee;
+}
+
+.home-page-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-page-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.home-page-list-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.home-page-list-item-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.home-page-list-item-name {
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: bold;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  padding: 12px 0px;
+  text-align: center;
+}
+
+
+
+.line {
+  border-top: 4px dotted rgba(107, 37, 4, 0.671);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-page-popular-items-header-container,
+.home-customer-favorites-items-header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.popular-items-header,
+.customer-favorites-header {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  white-space: nowrap;
+}
+
+.view-all-button {
+  white-space: nowrap;
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  color: #ee7d32;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-all-button:hover {
+  background-color: #f7f7f7;
+}
+
+
+
+.home-page-popular-items-container {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.home-page-popular-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-page-popular-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 285px;
+}
+
+.top-rated-item-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.top-rated-item-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  padding: 12px 0px;
+}
+
+.top-rated-item-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ee7d32;
+  padding-bottom: 12px;
+}
+
+.top-rated-item-add-to-cart-button {
+  background-color: #e9640c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.top-rated-item-add-to-cart-button:hover {
+  background-color: #e66f21ee;
+}
+
+.top-rated-item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px 12px;
+}
+
+
+
+
+.sweet-deals-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+
+  margin: 30px auto;
+  width: 100%;
+  max-width: 1200px;
+
+  height: clamp(200px, 35vw, 300px);
+
+  background-image: url('/images/sweet-deals-bg.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sweet-deals-container-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sweet-deals-header {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: Handlee;
+}
+
+.sweet-deals-deal {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.sweet-deals-shop-deals-button {
+  background-color: #e9640c;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: Handlee;
+}
+
+.sweet-deals-shop-deals-button:hover {
+  background-color: #e66f21ee;
+}
+
+
+
+
+.customer-favorites-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  margin-bottom: 30px;
+}
+
+.home-customer-favorite-item {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.home-customer-favorite-item-image {
+  width: 490px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.home-customer-favorite-item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px 12px;
+}
+
+.home-customer-favorite-item-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  padding: 12px 0px;
+}
+
+.home-customer-favorite-item-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ee7d32;
+  padding-bottom: 12px;
+}
+
+.home-customer-favorite-item-add-to-cart-button {
+  background-color: #e9640c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.home-customer-favorite-item-add-to-cart-button:hover {
+  background-color: #e66f21ee;
+}
+
+@media (max-width: 600px) {
+  .home-page-popular-items {
+    grid-template-columns: 1fr;
+  }
+}

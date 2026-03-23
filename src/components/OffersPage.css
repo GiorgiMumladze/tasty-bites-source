@@ -1,0 +1,294 @@
+.offers-page-header {
+  height: 300px;
+  background-image: url('/images/about-us.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+  font-weight: bold;
+  font-family: Handlee;
+  padding: 0 20px;
+  text-align: center;
+}
+
+
+.header-text-first {
+  font-size: 64px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.header-text-second {
+  font-size: 32px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.offers-page-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 40px 0px;
+}
+
+.offers-page-content-item {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.349);
+  overflow: hidden;
+}
+
+.offers-page-content-item-content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  padding: 20px;
+  align-items: center;
+}
+
+.offers-page-content-item-header {
+  background-image: url('/images/offers-page-background.png');
+  font-size: 36px;
+  font-family: Handlee;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+
+.offers-page-content-item-content-left-side {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+
+.offers-page-content-item-content-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.offers-page-content-item-content-left-side-img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.offers-page-content-item-content-right-side-header {
+  font-size: 20px;
+  font-family: Handlee;
+  color: rgb(107, 37, 4);
+  font-weight: bold;
+}
+
+.shop-bundle-button {
+  background-color: #e9640c;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: Handlee;
+  text-align: center;
+}
+
+.shop-bundle-button:hover {
+  background-color: #e66f21ee;
+}
+
+
+.offers-page-content-item-content-left-side-img-3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-image: url('/images/products/chocolate-cake.jpg');
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.offers-page-content-item-content-left-side-img-4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-image: url('/images/products/vanilla-ice-cream.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.offers-page-content-limited-time-deals {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-image: url('/images/offers-page-background.png');
+  max-width: 900px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.349);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  color: white;
+}
+
+.offers-page-content-limited-time-deals-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  gap: 20px;
+}
+
+.offers-page-content-limited-time-deals-left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offers-page-content-limited-time-deals-right-side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.offers-page-content-limited-time-deals-header {
+  font-size: 36px;
+  font-family: Handlee;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sweet-deals-text {
+  font-size: 44px;
+  font-family: Handlee;
+  text-align: center;
+  font-weight: bold;
+}
+
+.up-to-text {
+  font-size: 24px;
+  font-family: Handlee;
+  text-align: center;
+}
+
+.order-now-button {
+  background-color: #e9640c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: Handlee;
+}
+
+.order-now-button:hover {
+  background-color: #e66f21ee;
+}
+
+
+.order-now-button-text {
+  font-size: 18px;
+  font-family: Handlee;
+  text-align: center;
+  max-width: 250px;
+}
+
+
+@media (max-width: 1024px) {
+  .header-text-first {
+    font-size: 48px;
+  }
+
+  .header-text-second {
+    font-size: 24px;
+  }
+
+  .offers-page-content-item-content {
+    column-gap: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .offers-page-header {
+    height: 200px;
+  }
+
+  .header-text-first {
+    font-size: 36px;
+  }
+
+  .header-text-second {
+    font-size: 20px;
+  }
+
+  .offers-page-content-item-content {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .offers-page-content-item-content-right-side {
+    align-items: center;
+  }
+
+  .offers-page-content-item-content-right-side-header {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .shop-bundle-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .offers-page-content-limited-time-deals-bottom-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sweet-deals-text {
+    font-size: 32px;
+  }
+
+  .up-to-text {
+    font-size: 20px;
+  }
+
+  .order-now-button {
+    font-size: 18px;
+  }
+
+  .order-now-button-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 51,
+    "category": "offer",
+    "name": "Iced Latte + Chocolate Muffin",
+    "image": "images/offers/iced-latte-chocolate-muffin.jpg",
+    "reviews": 124,
+    "stars": 4.6,
+    "price": 6.29,
+    "soldOut": false,
+    "description": "Bundle & Save! Get 20% off when you order an Iced Latte with a Chocolate Muffin."
+  },
+  {
+    "id": 52,
+    "category": "offer",
+    "name": "Chocolate Cake + Latte",
+    "image": "images/offers/chocolate-cake-latte.jpg",
+    "reviews": 98,
+    "stars": 4.7,
+    "price": 8.49,
+    "soldOut": false,
+    "description": "Sweet Combo Deal! Enjoy a rich Chocolate Cake with a smooth Latte at a discounted price."
+  },
+  {
+    "id": 53,
+    "category": "offer",
+    "name": "Cappuccino + Butter Croissant",
+    "image": "images/offers/cappuccino-butter-croissant.jpg",
+    "reviews": 143,
+    "stars": 4.8,
+    "price": 5.49,
+    "soldOut": false,
+    "description": "Morning Special! Start your day with a Cappuccino and Butter Croissant for 25% off."
+  },
+  {
+    "id": 54,
+    "category": "offer",
+    "name": "Brownie + Mocha",
+    "image": "images/offers/brownie-mocha.jpg",
+    "reviews": 110,
+    "stars": 4.5,
+    "price": 7.29,
+    "soldOut": false,
+    "description": "Chocolate Lover's Deal! Get a fudgy Brownie with a Mocha and save big."
+  },
+  {
+    "id": 55,
+    "category": "offer",
+    "name": "Strawberry Cheesecake + Iced Latte",
+    "image": "images/offers/strawberry-cheesecake-iced-latte.jpg",
+    "reviews": 89,
+    "stars": 4.7,
+    "price": 9.49,
+    "soldOut": false,
+    "description": "Refreshing Treat! Pair a Strawberry Cheesecake with an Iced Latte and get 15% off."
+  },
+  {
+    "id": 56,
+    "category": "offer",
+    "name": "Trio: Espresso + Cinnamon Roll + Orange Juice",
+    "image": "images/offers/espresso-cinnamon-roll-orange-juice.jpg",
+    "reviews": 76,
+    "stars": 4.6,
+    "price": 7.49,
+    "soldOut": false,
+    "description": "Breakfast Trio Deal! Espresso, Cinnamon Roll, and Orange Juice together at a special combo price."
+  }
+]

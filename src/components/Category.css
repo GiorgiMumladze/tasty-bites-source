@@ -1,0 +1,98 @@
+.category-page-navigation {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 0 40px;
+  color: rgb(107, 37, 4);
+}
+
+.category-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.category-page-navigation-button {
+  cursor: pointer;
+}
+
+.category-page-navigation-button:hover {
+  opacity: 0.8;
+}
+
+.category-page-header {
+  font-size: 44px;
+  font-weight: bold;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  padding: 30px 40px;
+}
+
+.category-page-header-description {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  margin-bottom: 10px;
+  padding: 0 40px;
+}
+
+
+.category-page-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 40px 40px;
+  gap: 30px;
+}
+
+
+.category-page-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.category-page-item-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.category-page-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+}
+
+.category-page-item-stars {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+  color: #ee7d32;
+}
+
+.category-page-item-reviews {
+  font-size: 14px;
+  color: rgb(107, 37, 4);
+}
+
+.view-details-button {
+  background-color: #ee7d32;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.view-details-button:hover {
+  background-color: #d96b2a;
+}

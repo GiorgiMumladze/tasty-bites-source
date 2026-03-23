@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Desserts",
+    "image": "images/home-page-list-items/list-desserts.jpg",
+    "description": "Indulge in our delectable desserts, crafted with the finest ingredients."
+  },
+  {
+    "id": 2,
+    "name": "Coffee",
+    "image": "images/home-page-list-items/list-coffee.jpg",
+    "description": "Experience the perfect cup of coffee at our café."
+  },
+  {
+    "id": 3,
+    "name": "Drinks",
+    "image": "images/home-page-list-items/list-drinks.jpg",
+    "description": "Quench your thirst with our refreshing selection of drinks."
+  },
+  {
+    "id": 4,
+    "name": "Pastries",
+    "image": "images/home-page-list-items/list-pastries.jpg",
+    "description": "Indulge in our delectable pastries, crafted with the finest ingredients."
+  },
+  {
+    "id": 5,
+    "name": "Hot Beverages",
+    "image": "images/home-page-list-items/list-hot-beverages.jpg",
+    "description": "Warm up with our comforting hot beverages."
+  }
+]

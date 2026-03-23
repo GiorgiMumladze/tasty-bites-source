@@ -1,0 +1,278 @@
+.checkout-page-header {
+  width: 100%;
+  height: 300px;
+  background-image: url('/images/about-us.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+  font-weight: bold;
+  font-family: Handlee;
+}
+
+.checkout-page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: start;
+}
+
+.checkout-header-text-first {
+  font-size: 80px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.checkout-header-text-second {
+  font-size: 40px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.shipping-information-header {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.shipping-information-wrapper {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(107, 37, 4, 0.116);
+  flex: 2;
+}
+
+.shipping-information-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.shipping-information-content-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.shipping-information-content-row-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  width: 100%;
+}
+
+.checkout-page-content-right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.input-name {
+  font-family: Handlee;
+  font-size: 20px;
+  color: rgb(107, 37, 4);
+}
+
+.shipping-information-input {
+  width: 100%;
+  padding: 10px 14px;
+  /* slightly smaller for mobile */
+  font-size: 16px;
+  /* better for mobile */
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(107, 37, 4, 0.24);
+  border-radius: 4px;
+  color: rgb(107, 37, 4);
+  box-sizing: border-box;
+}
+
+.shipping-information-input::placeholder {
+  font-family: Handlee;
+  font-size: 20px;
+  color: rgba(107, 37, 4, 0.253);
+}
+
+.cash-on-delivery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 6px;
+  font-size: 18px;
+  color: rgb(177, 63, 10);
+  font-family: Handlee;
+  font-weight: bold;
+}
+
+.order-summary-wrapper {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(107, 37, 4, 0.116);
+  flex: 1;
+}
+
+
+
+
+
+.order-summary-header {
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(107, 37, 4, 0.205);
+  padding-bottom: 6px;
+}
+
+.order-summary-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px 0px;
+}
+
+.order-summary-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(107, 37, 4, 0.205);
+}
+
+.order-summary-item-img {
+  width: 60px;
+  height: 56px;
+  border-radius: 6px;
+}
+
+.order-summary-item-container-left-side {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.order-summary-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.order-summary-total-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(107, 37, 4, 0.116);
+  padding: 20px;
+}
+
+.order-summary-total-container-header {
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(107, 37, 4, 0.205);
+  padding-bottom: 6px;
+}
+
+.order-summary-total-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(107, 37, 4, 0.205);
+  padding: 10px 0px;
+  align-items: center;
+}
+
+.order-summary-total-container-text {
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  font-size: 20px;
+}
+
+.order-summary-total-container-price {
+  color: rgb(107, 37, 4);
+  font-family: Handlee;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.order-summary-total-container-text-total {
+  color: rgb(71, 36, 19);
+  font-family: Handlee;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.order-summary-total-container-price-total {
+  color: rgb(71, 36, 19);
+  font-family: Handlee;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.place-order-button {
+  background-color: #ee7d32;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.place-order-button:hover {
+  background-color: #ee7d32ee;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .checkout-page-content {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: stretch;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .shipping-information-content-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
